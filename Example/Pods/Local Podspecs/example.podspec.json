@@ -1,0 +1,22 @@
+{
+  "name": "example",
+  "version": "0.1.0",
+  "summary": "A short description of example.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/alozhkin/example",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "alozhkin": "alozhkin99@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/alozhkin/example.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "osx": "10.10"
+  },
+  "source_files": "example/Classes/**/*"
+}
