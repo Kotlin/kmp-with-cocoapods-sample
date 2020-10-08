@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'alozhkin' => 'alozhkin99@gmail.com' }
-  s.source           = { :git => 'https://github.com/alozhkin/pod_example', 
+  s.source           = { :git => 'https://github.com/Kotlin/kotlin-with-cocoapods-sample', 
                          :branch => 'specRepoExample'
                         }
 
