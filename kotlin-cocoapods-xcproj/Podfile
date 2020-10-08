@@ -1,0 +1,20 @@
+source 'https://cdn.cocoapods.org'
+source 'https://github.com/Kotlin/kotlin-cocoapods-spec.git'
+
+platform :ios, '13.5'
+
+target 'kotlin-cocoapods-xcproj' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'kotlin_library', :path => '../kotlin-library'
+  pod 'AFNetworking'
+  pod 'CocoaLumberjack', :path => '/Users/yaroslav.chernyshev/Documents/work/cocoapods/kotlin-with-cocoapods-sample/kotlin-library/build/cocoapods/externalSources/git/CocoaLumberjack'
+  pod 'JSONModel', :path => '/Users/yaroslav.chernyshev/Documents/work/cocoapods/kotlin-with-cocoapods-sample/kotlin-library/build/cocoapods/externalSources/git/JSONModel'
+  pod 'SDWebImage', :path => '/Users/yaroslav.chernyshev/Documents/work/cocoapods/kotlin-with-cocoapods-sample/kotlin-library/build/cocoapods/externalSources/git/SDWebImage'
+  pod 'cocoapodSourcesZip', :path => '/Users/yaroslav.chernyshev/Documents/work/cocoapods/kotlin-with-cocoapods-sample/kotlin-library/build/cocoapods/externalSources/url/cocoapodSourcesZip'
+  pod 'example'
+  pod 'pod_dependency', :path => '/Users/yaroslav.chernyshev/Documents/work/cocoapods/kotlin-with-cocoapods-sample/pod_dependency'
+  pod 'subspec_dependency/Core', :path => '/Users/yaroslav.chernyshev/Documents/work/cocoapods/kotlin-with-cocoapods-sample/subspec_dependency'
+
+end

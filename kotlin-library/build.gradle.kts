@@ -21,6 +21,8 @@ kotlin {
 
         ios.deploymentTarget = "13.5"
 
+        podfile = project.file("../kotlin-cocoapods-xcproj/Podfile")
+
 //      Example of usage remote Cocoapods dependency from Cocoapods repository
         pod("AFNetworking") {
             version = "~> 4.0.1"

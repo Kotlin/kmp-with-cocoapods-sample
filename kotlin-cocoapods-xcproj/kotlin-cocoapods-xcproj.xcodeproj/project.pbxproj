@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DAFB30B809BA570C9FD2169 /* Pods_kotlin_cocoapods_xcproj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC01A8977EC8AD5F43BF73D4 /* Pods_kotlin_cocoapods_xcproj.framework */; };
+		CB884816252F695C00E7CB1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB884815252F695C00E7CB1E /* AppDelegate.swift */; };
+		CB884818252F695C00E7CB1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB884817252F695C00E7CB1E /* SceneDelegate.swift */; };
+		CB88481A252F695C00E7CB1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB884819252F695C00E7CB1E /* ViewController.swift */; };
+		CB88481D252F695C00E7CB1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB88481B252F695C00E7CB1E /* Main.storyboard */; };
+		CB88481F252F695D00E7CB1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB88481E252F695D00E7CB1E /* Assets.xcassets */; };
+		CB884822252F695D00E7CB1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB884820252F695D00E7CB1E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF03F5108F54F7234B673A25 /* Pods-kotlin-cocoapods-xcproj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kotlin-cocoapods-xcproj.release.xcconfig"; path = "Target Support Files/Pods-kotlin-cocoapods-xcproj/Pods-kotlin-cocoapods-xcproj.release.xcconfig"; sourceTree = "<group>"; };
+		C5D463DC49E17E0B0FE43804 /* Pods-kotlin-cocoapods-xcproj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kotlin-cocoapods-xcproj.debug.xcconfig"; path = "Target Support Files/Pods-kotlin-cocoapods-xcproj/Pods-kotlin-cocoapods-xcproj.debug.xcconfig"; sourceTree = "<group>"; };
+		CB884812252F695C00E7CB1E /* kotlin-cocoapods-xcproj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kotlin-cocoapods-xcproj.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB884815252F695C00E7CB1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB884817252F695C00E7CB1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CB884819252F695C00E7CB1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB88481C252F695C00E7CB1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB88481E252F695D00E7CB1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB884821252F695D00E7CB1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB884823252F695D00E7CB1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC01A8977EC8AD5F43BF73D4 /* Pods_kotlin_cocoapods_xcproj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kotlin_cocoapods_xcproj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB88480F252F695C00E7CB1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAFB30B809BA570C9FD2169 /* Pods_kotlin_cocoapods_xcproj.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68D77DB3EF597409029C7FD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC01A8977EC8AD5F43BF73D4 /* Pods_kotlin_cocoapods_xcproj.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A481D5221D0820B2F15E38A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5D463DC49E17E0B0FE43804 /* Pods-kotlin-cocoapods-xcproj.debug.xcconfig */,
+				BF03F5108F54F7234B673A25 /* Pods-kotlin-cocoapods-xcproj.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB884809252F695C00E7CB1E = {
+			isa = PBXGroup;
+			children = (
+				CB884814252F695C00E7CB1E /* kotlin-cocoapods-xcproj */,
+				CB884813252F695C00E7CB1E /* Products */,
+				A481D5221D0820B2F15E38A2 /* Pods */,
+				68D77DB3EF597409029C7FD0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB884813252F695C00E7CB1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB884812252F695C00E7CB1E /* kotlin-cocoapods-xcproj.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB884814252F695C00E7CB1E /* kotlin-cocoapods-xcproj */ = {
+			isa = PBXGroup;
+			children = (
+				CB884815252F695C00E7CB1E /* AppDelegate.swift */,
+				CB884817252F695C00E7CB1E /* SceneDelegate.swift */,
+				CB884819252F695C00E7CB1E /* ViewController.swift */,
+				CB88481B252F695C00E7CB1E /* Main.storyboard */,
+				CB88481E252F695D00E7CB1E /* Assets.xcassets */,
+				CB884820252F695D00E7CB1E /* LaunchScreen.storyboard */,
+				CB884823252F695D00E7CB1E /* Info.plist */,
+			);
+			path = "kotlin-cocoapods-xcproj";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB884811252F695C00E7CB1E /* kotlin-cocoapods-xcproj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB884826252F695D00E7CB1E /* Build configuration list for PBXNativeTarget "kotlin-cocoapods-xcproj" */;
+			buildPhases = (
+				EF7C80332C8EB01053490E82 /* [CP] Check Pods Manifest.lock */,
+				CB88480E252F695C00E7CB1E /* Sources */,
+				CB88480F252F695C00E7CB1E /* Frameworks */,
+				CB884810252F695C00E7CB1E /* Resources */,
+				91CBF2B1ED756CFACF47D06B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kotlin-cocoapods-xcproj";
+			productName = "kotlin-cocoapods-xcproj";
+			productReference = CB884812252F695C00E7CB1E /* kotlin-cocoapods-xcproj.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB88480A252F695C00E7CB1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CB884811252F695C00E7CB1E = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CB88480D252F695C00E7CB1E /* Build configuration list for PBXProject "kotlin-cocoapods-xcproj" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB884809252F695C00E7CB1E;
+			productRefGroup = CB884813252F695C00E7CB1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB884811252F695C00E7CB1E /* kotlin-cocoapods-xcproj */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB884810252F695C00E7CB1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB884822252F695D00E7CB1E /* LaunchScreen.storyboard in Resources */,
+				CB88481F252F695D00E7CB1E /* Assets.xcassets in Resources */,
+				CB88481D252F695C00E7CB1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91CBF2B1ED756CFACF47D06B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kotlin-cocoapods-xcproj/Pods-kotlin-cocoapods-xcproj-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kotlin-cocoapods-xcproj/Pods-kotlin-cocoapods-xcproj-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kotlin-cocoapods-xcproj/Pods-kotlin-cocoapods-xcproj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF7C80332C8EB01053490E82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kotlin-cocoapods-xcproj-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB88480E252F695C00E7CB1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB88481A252F695C00E7CB1E /* ViewController.swift in Sources */,
+				CB884816252F695C00E7CB1E /* AppDelegate.swift in Sources */,
+				CB884818252F695C00E7CB1E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB88481B252F695C00E7CB1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB88481C252F695C00E7CB1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB884820252F695D00E7CB1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB884821252F695D00E7CB1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB884824252F695D00E7CB1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB884825252F695D00E7CB1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB884827252F695D00E7CB1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D463DC49E17E0B0FE43804 /* Pods-kotlin-cocoapods-xcproj.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "kotlin-cocoapods-xcproj/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "example.kotlin-cocoapods-xcproj";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB884828252F695D00E7CB1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF03F5108F54F7234B673A25 /* Pods-kotlin-cocoapods-xcproj.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "kotlin-cocoapods-xcproj/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "example.kotlin-cocoapods-xcproj";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB88480D252F695C00E7CB1E /* Build configuration list for PBXProject "kotlin-cocoapods-xcproj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB884824252F695D00E7CB1E /* Debug */,
+				CB884825252F695D00E7CB1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB884826252F695D00E7CB1E /* Build configuration list for PBXNativeTarget "kotlin-cocoapods-xcproj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB884827252F695D00E7CB1E /* Debug */,
+				CB884828252F695D00E7CB1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB88480A252F695C00E7CB1E /* Project object */;
+}
