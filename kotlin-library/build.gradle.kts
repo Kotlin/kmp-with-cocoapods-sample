@@ -1,6 +1,6 @@
 plugins {
-    kotlin("multiplatform") version "1.4.255-SNAPSHOT"
-    kotlin("native.cocoapods") version "1.4.255-SNAPSHOT"
+    kotlin("multiplatform") version "1.4.31"
+    kotlin("native.cocoapods") version "1.4.31"
 }
 
 group = "org.jetbrains.kotlin.sample"
