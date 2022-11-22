@@ -1,14 +1,17 @@
 pluginManagement {
     repositories {
-        repositories {
-            mavenLocal()
-            jcenter()
-            gradlePluginPortal()
-        }
+        gradlePluginPortal()
+        mavenCentral()
+        google()
     }
 }
 
-enableFeaturePreview('GRADLE_METADATA')
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+        google()
+    }
+}
 
 rootProject.name = 'kotlin-with-cocoapods-sample'
 include 'kotlin-library'

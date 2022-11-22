@@ -1,16 +1,10 @@
 plugins {
-    kotlin("multiplatform") version "1.4.255-SNAPSHOT"
-    kotlin("native.cocoapods") version "1.4.255-SNAPSHOT"
+    kotlin("multiplatform") version "1.8.0-Beta"
+    kotlin("native.cocoapods") version "1.8.0-Beta"
 }
 
 group = "org.jetbrains.kotlin.sample"
 version = "1.0-SNAPSHOT"
-
-repositories {
-    mavenLocal()
-    jcenter()
-    maven { setUrl("https://dl.bintray.com/kotlin/kotlinx.html/") }
-}
 
 kotlin {
     ios()
@@ -66,10 +60,5 @@ kotlin {
         }
         pod("example")
 
-        // Example of usage cocoapod dependency from URL source
-        // Supported archive file formats: zip, tar, tgz, tbz, txz, gzip, tar.gz, tar.bz2, tar.xz, jar
-        pod("cocoapodSourcesZip") {
-            source = url("https://github.com/Kotlin/kotlin-with-cocoapods-sample/raw/cocoapods-zip/cocoapodSourcesZip.zip")
-        }
     }
 }
