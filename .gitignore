@@ -11,7 +11,6 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
@@ -25,3 +24,7 @@ hs_err_pid*
 .idea/
 .gradle/
 */build/
+
+local.properties
+
+/kotlin-library/kotlin_library.podspec
