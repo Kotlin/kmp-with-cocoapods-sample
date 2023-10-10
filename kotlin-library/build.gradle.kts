@@ -1,13 +1,15 @@
 plugins {
-    kotlin("multiplatform") version "1.8.0-Beta"
-    kotlin("native.cocoapods") version "1.8.0-Beta"
+    kotlin("multiplatform")
+    kotlin("native.cocoapods")
 }
 
 group = "org.jetbrains.kotlin.sample"
 version = "1.0-SNAPSHOT"
 
 kotlin {
-    ios()
+    iosX64()
+    iosArm64()
+    iosSimulatorArm64()
 
     cocoapods {
         summary = "Kotlin sample project with CocoaPods dependencies"
@@ -55,10 +57,10 @@ kotlin {
 
 //      Example of usage Pod from custom spec repository
 //      Please, make sure that your existing Podfile contains `source 'path/to/spec-repo.git'` line
-        specRepos {
-            url("https://github.com/Kotlin/kotlin-cocoapods-spec.git")
-        }
-        pod("example")
+//        specRepos {
+//            url("https://github.com/Kotlin/kotlin-cocoapods-spec.git")
+//        }
+//        pod("example")
 
     }
 }
