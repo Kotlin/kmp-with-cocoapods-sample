@@ -61,6 +61,13 @@ kotlin {
 //            url("https://github.com/Kotlin/kotlin-cocoapods-spec.git")
 //        }
 //        pod("example")
+    }
 
+    sourceSets {
+        all {
+            languageSettings {
+                optIn("kotlinx.cinterop.ExperimentalForeignApi")
+            }
+        }
     }
 }
