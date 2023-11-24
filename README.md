@@ -1,3 +1,5 @@
+[![official project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+
 # kotlin-with-cocoapods-sample
 This project represents the case when Cocoapods dependencies added in Kotlin and there is no existing Xcode project
 
