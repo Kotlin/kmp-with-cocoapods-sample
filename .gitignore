@@ -23,8 +23,11 @@ hs_err_pid*
 
 .idea/
 .gradle/
+.kotlin
 */build/
 
 local.properties
 
 /kotlin-library/kotlin_library.podspec
+
+.DS_Store

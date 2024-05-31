@@ -18,8 +18,8 @@ kotlin {
         ios.deploymentTarget = "13.5"
 
 //      Example of usage remote Cocoapods dependency from Cocoapods repository
-        pod("AFNetworking") {
-            version = "~> 4.0.1"
+        pod("Base64") {
+            version = "~> 1.1.2"
         }
 
 //      Example of usage remote Pod from Github repository by tag
