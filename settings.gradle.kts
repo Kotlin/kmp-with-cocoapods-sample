@@ -1,17 +1,19 @@
+rootProject.name = "kotlin-with-cocoapods-sample"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
 pluginManagement {
     repositories {
+        google()
         gradlePluginPortal()
         mavenCentral()
-        google()
     }
 }
 
 dependencyResolutionManagement {
     repositories {
-        mavenCentral()
         google()
+        mavenCentral()
     }
 }
 
-rootProject.name = 'kotlin-with-cocoapods-sample'
-include 'kotlin-library'
+include(":kotlin-library")
